@@ -12,7 +12,6 @@ print('Division (floor) : ', a // b)
 print('Modulus : ', a % b)
 print('Exponent : ', a ** b)
 
-
 # prints
 
 # Addition : 13
@@ -55,3 +54,16 @@ print(new_str[::-1].upper()) #makes it go backwards
 # welcome to Python 101: Strings
 # ›1 Welcome Ring To Tyler
 # ›RELYT OT GNIR EMOCLEW 1
+
+msg_multi = """Dear Terry,,
+You must cut down the mightiest 
+tree in the forest with…
+a herring! <3"""
+ #prints multi line strings
+
+print(msg.find('h')) #will find the location index of h //can look for words too
+
+print(msg.replace('Python','Java')) #replaces Python with Java
+#these are not mutable you must save it as a new variable
+
+print('Python' in msg) #prints true
