@@ -60,14 +60,19 @@ for i in user_input:
     # Width input = empty string times user input + * times user input + empty string * user input
     # User input not predefined = while loop
 
-#1 *************** come back to************************
+# #1 *************** come back to************************
+# Three Loop Questions:
+#1. What do I want to repeat?
+#  -> 
+#2. What do I want to change each time?
+#  -> 
+#3. How long should we repeat?
+#  -> 
+# user_input = int(input("Please enter a number: "))
 
-user_input = int(input("Please enter a number: "))
+# i = 0
 
-i = 0
-
-while i < user_input:
-    i += 1
+# while i < user_input:
+#     i += 1
 
     
-   
