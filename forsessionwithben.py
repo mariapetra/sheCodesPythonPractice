@@ -22,21 +22,25 @@ groceries = [
 ]
 
 username = "Izzy"
+
 for item in groceries:
     item_description = item[1]
     user_input = int(input(f"Hi {username}, how many units of {item[0]} did you buy? "))
     price = user_input * item_description
     item.append(price)
+
 for price in groceries:
-    subtotal = 0
-    item_cost = price[2]
-    subtotal = price * item[0]
+    sum = 0
+    item_cost = round(price[2], 2)
+    sum += item_cost
+
 print(f"""===={username}'s Food Emporium"====
+{item[1]} {price[2]}
 
 
 
 =========================================
-{subtotal}
+{sum}
 """)
 
 
