@@ -16,3 +16,14 @@ while i < 6:
 #  -> 
 #3. How long should we repeat?
 #  -> 
+
+
+# for loops in dictionaries
+
+movie = {
+    'title' : 'Life of Brian',
+    'year' : 1979,
+    'cast' : ['John','Eric','Michael','Graham','Terry']
+}
+for key, value in movie.items():
+    print(key, value)
